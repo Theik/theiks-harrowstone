@@ -1,0 +1,6465 @@
+{
+  "schemaVersion": 1,
+  "moduleId": "theiks-harrowstone",
+  "generatedAt": "2026-09-06T19:39:48.348Z",
+  "configSha256": "d12b7fa81583b4dfc288ce7cbed101d3d5a4d5659ffd82c132eda1efec6d13cb",
+  "scene": {
+    "id": "hTGtBrMEJCXdW6er",
+    "name": "Harrowstone",
+    "width": 6700,
+    "height": 6500,
+    "padding": 0.1,
+    "gridSize": 100,
+    "masterWidth": 13400,
+    "masterHeight": 13000,
+    "masterGridSize": 200,
+    "expectedCounts": {
+      "levels": 5,
+      "walls": 1137,
+      "tiles": 6,
+      "regions": 9
+    }
+  },
+  "encoder": {
+    "name": "KTX-Software",
+    "version": "4.4.2",
+    "primaryEncoding": "uastc",
+    "mipLevels": 1,
+    "minimumSsim": 0.96,
+    "uastcQuality": 2,
+    "zstdLevel": 18
+  },
+  "thumbnail": {
+    "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/thumb.webp",
+    "width": 512,
+    "height": 497,
+    "bytes": 52724,
+    "sha256": "edb3d2dfd6ef0d9121a9cc6120e25b0a158cf63a19fe10bac300751150f28b9c"
+  },
+  "levels": [
+    {
+      "id": "defaultLevel0000",
+      "name": "Ground Floor",
+      "slug": "ground-floor",
+      "master": {
+        "path": "ground-floor.webp",
+        "width": 13400,
+        "height": 13000,
+        "channels": 4,
+        "colorSpace": "srgb",
+        "sha256": "8dd88c0a55fdfddea060bd31a2604acf54bd3d9f8a019b80dee02c8c943251ea",
+        "bytes": 226840622
+      },
+      "tiers": [
+        {
+          "id": "z0",
+          "gridPixels": 50,
+          "density": 0.5,
+          "gutter": 1,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 65
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 6700,
+                "height": 6500
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 13400,
+                "height": 13000,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 13400,
+                "cropHeight": 13000
+              },
+              "resize": {
+                "width": 3350,
+                "height": 3250
+              },
+              "extend": {
+                "left": 1,
+                "top": 1,
+                "right": 1,
+                "bottom": 1
+              },
+              "frame": {
+                "x": 1,
+                "y": 1,
+                "width": 3350,
+                "height": 3250
+              },
+              "pixel": {
+                "width": 3352,
+                "height": 3252
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z0/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.998895,
+                  0.999281,
+                  0.993341,
+                  0.999988
+                ],
+                "minimum": 0.993341,
+                "average": 0.99787625
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7722577,
+              "sha256": "fe54a0a842b2230b96c0b51d1ec5cd1b25356a968a7a64c9bcf8bcc8168e5023",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z1",
+          "gridPixels": 100,
+          "density": 1,
+          "gutter": 2,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 34,
+                "height": 33
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3300
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6800,
+                "height": 6600,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 6804,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3302
+              },
+              "extend": {
+                "left": 2,
+                "top": 2,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z1/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.997984,
+                  0.999,
+                  0.988266,
+                  0.999995
+                ],
+                "minimum": 0.988266,
+                "average": 0.99631125
+              },
+              "ssimBelowTarget": false,
+              "bytes": 6950510,
+              "sha256": "4b5290fa62414f1a4e5060f16dbd6503549dca6a279004632ad4c5af420df790",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 33,
+                "height": 33
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 3300,
+                "height": 3300
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 6600,
+                "height": 6600,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 6604,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3302
+              },
+              "extend": {
+                "left": 0,
+                "top": 2,
+                "right": 2,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z1/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.998796,
+                  0.999276,
+                  0.990593,
+                  0.999996
+                ],
+                "minimum": 0.990593,
+                "average": 0.99716525
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7408122,
+              "sha256": "9f068e51007bba027c4532509d29b721091197814a75df4575e1dcb0d6cd2fb4",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 34,
+                "height": 32
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 3400,
+                "height": 3200
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 6800,
+                "height": 6400,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 6804,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3202
+              },
+              "extend": {
+                "left": 2,
+                "top": 0,
+                "right": 0,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z1/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999777,
+                  0.99986,
+                  0.992741,
+                  0.999926
+                ],
+                "minimum": 0.992741,
+                "average": 0.998076
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7647549,
+              "sha256": "e0932ecc90f93c6b3d991572577059458d67832f9b029f7ee9bfffb5d3033a95",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 33,
+                "height": 32
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 3300,
+                "height": 3200
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 6600,
+                "height": 6400,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 6604,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3202
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 2,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z1/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999856,
+                  0.9999,
+                  0.995451,
+                  0.999983
+                ],
+                "minimum": 0.995451,
+                "average": 0.9987975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7595114,
+              "sha256": "f2497a816feb3d76b8acc0acf3ab831dcf378985c015c9b8eb926a55efaa1b5f",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z2",
+          "gridPixels": 200,
+          "density": 2,
+          "gutter": 4,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 3404,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3404
+              },
+              "extend": {
+                "left": 4,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999325,
+                  0.999765,
+                  0.989739,
+                  1
+                ],
+                "minimum": 0.989739,
+                "average": 0.99720725
+              },
+              "ssimBelowTarget": false,
+              "bytes": 6924106,
+              "sha256": "d7ffb2120667026f971061f68ee714542211da01189e17192499676b7d69cf94",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 1700,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 3400,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 3396,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.997448,
+                  0.998608,
+                  0.987692,
+                  1
+                ],
+                "minimum": 0.987692,
+                "average": 0.9959370000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 8065813,
+              "sha256": "526da734dd3d4dec9723eab84afd68b8f5e04e816f422dc174f4ea0a3ba6e832",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-2",
+              "row": 0,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/0-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999442,
+                  0.999731,
+                  0.991477,
+                  1
+                ],
+                "minimum": 0.991477,
+                "average": 0.9976625
+              },
+              "ssimBelowTarget": false,
+              "bytes": 8139490,
+              "sha256": "0d371e6ecd697186afb45cf82ce39900b971d2ccbb5becb19a6da1a85b9607b1",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-3",
+              "row": 0,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 0,
+                "width": 16,
+                "height": 17
+              },
+              "scene": {
+                "x": 5100,
+                "y": 0,
+                "width": 1600,
+                "height": 1700
+              },
+              "source": {
+                "x": 10200,
+                "y": 0,
+                "width": 3200,
+                "height": 3400,
+                "cropX": 10196,
+                "cropY": 0,
+                "cropWidth": 3204,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/0-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.99845,
+                  0.999273,
+                  0.989227,
+                  1
+                ],
+                "minimum": 0.989227,
+                "average": 0.9967374999999999
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7969982,
+              "sha256": "49109e521d454bb4c60456cd837381311c827534478233f68ef5b066dfd108b6",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 3396,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999668,
+                  0.999721,
+                  0.992216,
+                  0.999997
+                ],
+                "minimum": 0.992216,
+                "average": 0.9979005
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7290722,
+              "sha256": "4a275513e5e80d760dda289f8bbc6f0868a19fac9ec65765ddd88c86205bd88a",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999756,
+                  0.999815,
+                  0.995471,
+                  0.999997
+                ],
+                "minimum": 0.995471,
+                "average": 0.99875975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7727387,
+              "sha256": "ddb39a1a526e6b5645e95b2fbc6c8d3b8baeb0db1c139840a6d51fffc1f141e2",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-2",
+              "row": 1,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/1-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999478,
+                  0.999653,
+                  0.996987,
+                  0.99992
+                ],
+                "minimum": 0.996987,
+                "average": 0.9990095
+              },
+              "ssimBelowTarget": false,
+              "bytes": 6879691,
+              "sha256": "5fdddec491bfbed21d4ac474a87b6ac9392b00bb1158c4e8da98274c234d6028",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-3",
+              "row": 1,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 17,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 1700,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 3400,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 3396,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/1-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999885,
+                  0.999975,
+                  0.999967,
+                  1
+                ],
+                "minimum": 0.999885,
+                "average": 0.99995675
+              },
+              "ssimBelowTarget": false,
+              "bytes": 4865504,
+              "sha256": "50250ecf240f8375cf15ebb209542b11b3df16f7433b7361708f7df3b68af788",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-0",
+              "row": 2,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/2-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999827,
+                  0.999818,
+                  0.990773,
+                  0.999969
+                ],
+                "minimum": 0.990773,
+                "average": 0.99759675
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7025435,
+              "sha256": "c7075ea9bc02b10e86f0259e3957e9c44cab15e2aa2ce121e5606720e4f59c02",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-1",
+              "row": 2,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/2-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999917,
+                  0.999947,
+                  0.996052,
+                  1
+                ],
+                "minimum": 0.996052,
+                "average": 0.9989790000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 8007001,
+              "sha256": "109ba7e013157e3d6f7cd3278c0c31921178f516680aed3c399ac7afe81e7e36",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-2",
+              "row": 2,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/2-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.99997,
+                  0.999974,
+                  0.99901,
+                  1
+                ],
+                "minimum": 0.99901,
+                "average": 0.9997385000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7525942,
+              "sha256": "6e0ec64154e4c03cca70c769e943044d11495212d6c05cd391c2517238dec0ab",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-3",
+              "row": 2,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 33,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 3300,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 6600,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 6596,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/2-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999859,
+                  0.99994,
+                  0.994409,
+                  0.999994
+                ],
+                "minimum": 0.994409,
+                "average": 0.9985505
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7483039,
+              "sha256": "70d94516db46b522118b8b434c116e640f5df3464549b6ad7c8862e80c66f112",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-0",
+              "row": 3,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 9796,
+                "cropWidth": 3404,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3204
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/3-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999539,
+                  0.999607,
+                  0.98633,
+                  0.999264
+                ],
+                "minimum": 0.98633,
+                "average": 0.9961850000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 8624397,
+              "sha256": "9dbc76d802d223f7724f900b3fa72324b9ee85459a50b2a9d0baa7c8ace4a472",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-1",
+              "row": 3,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/3-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999763,
+                  0.9998,
+                  0.989982,
+                  0.999995
+                ],
+                "minimum": 0.989982,
+                "average": 0.997385
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7978235,
+              "sha256": "31ace46d97fa111a82d779b680432eba558b46132910ced2baaf7fda4633c43f",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-2",
+              "row": 3,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/3-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999606,
+                  0.99969,
+                  0.994022,
+                  0.999984
+                ],
+                "minimum": 0.994022,
+                "average": 0.9983255
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7997015,
+              "sha256": "c0bc7d0b5e0f2aa85f4c1bc5b801a3cc7f2a1dc810000f48b68b75cb81ea8e37",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-3",
+              "row": 3,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 49,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 4900,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 9800,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 9796,
+                "cropWidth": 3204,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/ground-floor/z2/3-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999123,
+                  0.999578,
+                  0.993163,
+                  1
+                ],
+                "minimum": 0.993163,
+                "average": 0.997966
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7000973,
+              "sha256": "a3205aac78319b041767446d481928a4e08dedb1e087b36aa5b7831d9f0a8ce1",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PRSFmCV18iW5J0Jr",
+      "name": "First Floor",
+      "slug": "first-floor",
+      "master": {
+        "path": "first-floor.webp",
+        "width": 13400,
+        "height": 13000,
+        "channels": 4,
+        "colorSpace": "srgb",
+        "sha256": "445fb6656688cc6244a1985dd645b9b6b9d60c83494ddf92febf858394a55cd3",
+        "bytes": 85232212
+      },
+      "tiers": [
+        {
+          "id": "z0",
+          "gridPixels": 50,
+          "density": 0.5,
+          "gutter": 1,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 65
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 6700,
+                "height": 6500
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 13400,
+                "height": 13000,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 13400,
+                "cropHeight": 13000
+              },
+              "resize": {
+                "width": 3350,
+                "height": 3250
+              },
+              "extend": {
+                "left": 1,
+                "top": 1,
+                "right": 1,
+                "bottom": 1
+              },
+              "frame": {
+                "x": 1,
+                "y": 1,
+                "width": 3350,
+                "height": 3250
+              },
+              "pixel": {
+                "width": 3352,
+                "height": 3252
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z0/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999995,
+                  0.999993,
+                  0.99987,
+                  0.99998
+                ],
+                "minimum": 0.99987,
+                "average": 0.9999595
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1630322,
+              "sha256": "7c3c9462a33761e1c74fd89bc17074f7fdb1937199f72af7840d735acf445c62",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z1",
+          "gridPixels": 100,
+          "density": 1,
+          "gutter": 2,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 34,
+                "height": 33
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3300
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6800,
+                "height": 6600,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 6804,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3302
+              },
+              "extend": {
+                "left": 2,
+                "top": 2,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z1/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999999,
+                  0.999999,
+                  0.999954,
+                  0.999991
+                ],
+                "minimum": 0.999954,
+                "average": 0.99998575
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1657928,
+              "sha256": "f8d6e2e784a384dd568db8df195e606aa361c425f7db803248abbfea7af9ebe1",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 33,
+                "height": 33
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 3300,
+                "height": 3300
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 6600,
+                "height": 6600,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 6604,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3302
+              },
+              "extend": {
+                "left": 0,
+                "top": 2,
+                "right": 2,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z1/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999998,
+                  0.999998,
+                  0.999965,
+                  0.999995
+                ],
+                "minimum": 0.999965,
+                "average": 0.999989
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2286331,
+              "sha256": "a2a06772e7a9337e985ec01fe1686831f8017fc649ccdb23db122cc25db4f457",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 34,
+                "height": 32
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 3400,
+                "height": 3200
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 6800,
+                "height": 6400,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 6804,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3202
+              },
+              "extend": {
+                "left": 2,
+                "top": 0,
+                "right": 0,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z1/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999935,
+                  0.999941,
+                  0.999611,
+                  0.999982
+                ],
+                "minimum": 0.999611,
+                "average": 0.9998672500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1025447,
+              "sha256": "b6bb5cdf3027008fa765e474445ee695cc12ca4d62574a904e1aeeb3a471caec",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 33,
+                "height": 32
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 3300,
+                "height": 3200
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 6600,
+                "height": 6400,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 6604,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3202
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 2,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z1/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999816,
+                  0.999807,
+                  0.998882,
+                  0.999963
+                ],
+                "minimum": 0.998882,
+                "average": 0.9996170000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1349187,
+              "sha256": "b80ae795ebf3ad7f848a3ca6e20009d9f35fe32ed86a0c73cf1e3337552438ca",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z2",
+          "gridPixels": 200,
+          "density": 2,
+          "gutter": 4,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 3404,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3404
+              },
+              "extend": {
+                "left": 4,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 1700,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 3400,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 3396,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  0.999998,
+                  1
+                ],
+                "minimum": 0.999998,
+                "average": 0.9999995
+              },
+              "ssimBelowTarget": false,
+              "bytes": 46426,
+              "sha256": "ea1a6c1c167ab315db12756d562fd5841e5401262443d957e4e44d79905889a7",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-2",
+              "row": 0,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/0-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "minimum": 1,
+                "average": 1
+              },
+              "ssimBelowTarget": false,
+              "bytes": 18964,
+              "sha256": "4ea282978109fc20a8e0e571fd3a408619daf0e3eb019e638899c7a1d0940fa0",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-3",
+              "row": 0,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 0,
+                "width": 16,
+                "height": 17
+              },
+              "scene": {
+                "x": 5100,
+                "y": 0,
+                "width": 1600,
+                "height": 1700
+              },
+              "source": {
+                "x": 10200,
+                "y": 0,
+                "width": 3200,
+                "height": 3400,
+                "cropX": 10196,
+                "cropY": 0,
+                "cropWidth": 3204,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 3396,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  0.999956,
+                  1
+                ],
+                "minimum": 0.999956,
+                "average": 0.999989
+              },
+              "ssimBelowTarget": false,
+              "bytes": 10279,
+              "sha256": "452772637814e2256333e251dc6476ec89f154f6dee584b30c9165f89ddc6f32",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999977,
+                  0.99998,
+                  0.998976,
+                  0.999973
+                ],
+                "minimum": 0.998976,
+                "average": 0.9997265
+              },
+              "ssimBelowTarget": false,
+              "bytes": 6147112,
+              "sha256": "b659884729b6568fb4f96d4520db7717b736ff6cf89ef2e4b75e7957ba201a5d",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-2",
+              "row": 1,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/1-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999979,
+                  0.999983,
+                  0.99929,
+                  0.999943
+                ],
+                "minimum": 0.99929,
+                "average": 0.9997987500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 7995610,
+              "sha256": "913eda9eeaa77e983ba56d2057efb25285c71749a1a3c169795433ade40b5da4",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-3",
+              "row": 1,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 17,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 1700,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 3400,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 3396,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/1-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999999,
+                  0.999999,
+                  0.999994,
+                  0.999998
+                ],
+                "minimum": 0.999994,
+                "average": 0.9999975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 718297,
+              "sha256": "e969320f96d83363daae95d06d2270904e20d48c46b0c64c19e31457088ee1f0",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-0",
+              "row": 2,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-1",
+              "row": 2,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/2-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999934,
+                  0.999948,
+                  0.99879,
+                  0.999982
+                ],
+                "minimum": 0.99879,
+                "average": 0.9996635
+              },
+              "ssimBelowTarget": false,
+              "bytes": 3806220,
+              "sha256": "15c3f265d244b27d3bcdc0d9d0d44b2faef9b919c1a072d3c1dcf479aaadee5c",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-2",
+              "row": 2,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/2-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999881,
+                  0.999897,
+                  0.998373,
+                  0.99997
+                ],
+                "minimum": 0.998373,
+                "average": 0.9995302500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 4183326,
+              "sha256": "63d83d9caef68f7539c64df4e965ae6a1f3970dffd1f174819615eae0fa58e98",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-3",
+              "row": 2,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 33,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 3300,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 6600,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 6596,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/2-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999948,
+                  0.999948,
+                  0.998661,
+                  0.99998
+                ],
+                "minimum": 0.998661,
+                "average": 0.99963425
+              },
+              "ssimBelowTarget": false,
+              "bytes": 970433,
+              "sha256": "8ec93eaa81cb79696ccb93e9ed06e8be8db743c3a7a9bdd9215ed6db0e0fdf34",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-0",
+              "row": 3,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 9796,
+                "cropWidth": 3404,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3204
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-1",
+              "row": 3,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/first-floor/z2/3-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999974,
+                  0.999981,
+                  0.999978,
+                  0.999986
+                ],
+                "minimum": 0.999974,
+                "average": 0.9999797500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 41953,
+              "sha256": "8d5f83d3c88f9fc363263cb208d9056de7e09860558d9c8d1d0d20904a119751",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-2",
+              "row": 3,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-3",
+              "row": 3,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 49,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 4900,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 9800,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 9796,
+                "cropWidth": 3204,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QeGYANMpzdBdB1LS",
+      "name": "Roof",
+      "slug": "roof",
+      "master": {
+        "path": "roof.webp",
+        "width": 13400,
+        "height": 13000,
+        "channels": 4,
+        "colorSpace": "srgb",
+        "sha256": "8ec68b17898fa7a4521acf84ba0fe502d931351a8380f96e5941b2565ba0bdaf",
+        "bytes": 49952266
+      },
+      "tiers": [
+        {
+          "id": "z0",
+          "gridPixels": 50,
+          "density": 0.5,
+          "gutter": 1,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 65
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 6700,
+                "height": 6500
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 13400,
+                "height": 13000,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 13400,
+                "cropHeight": 13000
+              },
+              "resize": {
+                "width": 3350,
+                "height": 3250
+              },
+              "extend": {
+                "left": 1,
+                "top": 1,
+                "right": 1,
+                "bottom": 1
+              },
+              "frame": {
+                "x": 1,
+                "y": 1,
+                "width": 3350,
+                "height": 3250
+              },
+              "pixel": {
+                "width": 3352,
+                "height": 3252
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z0/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999964,
+                  0.999973,
+                  0.999834,
+                  0.999869
+                ],
+                "minimum": 0.999834,
+                "average": 0.99991
+              },
+              "ssimBelowTarget": false,
+              "bytes": 585961,
+              "sha256": "986b5dd14c81c79247f5a64f4553a5d14f8b53dd743b49fc1739e74183d8d0d4",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z1",
+          "gridPixels": 100,
+          "density": 1,
+          "gutter": 2,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 34,
+                "height": 33
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3300
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6800,
+                "height": 6600,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 6804,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3302
+              },
+              "extend": {
+                "left": 2,
+                "top": 2,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z1/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999978,
+                  0.999978,
+                  0.999799,
+                  0.999935
+                ],
+                "minimum": 0.999799,
+                "average": 0.9999225
+              },
+              "ssimBelowTarget": false,
+              "bytes": 721020,
+              "sha256": "e9f7126e468a43e9cb15bbb70104e976447b78709403e3aaad6323d227088e38",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 33,
+                "height": 33
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 3300,
+                "height": 3300
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 6600,
+                "height": 6600,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 6604,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3302
+              },
+              "extend": {
+                "left": 0,
+                "top": 2,
+                "right": 2,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z1/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999991,
+                  0.999991,
+                  0.999896,
+                  0.999919
+                ],
+                "minimum": 0.999896,
+                "average": 0.99994925
+              },
+              "ssimBelowTarget": false,
+              "bytes": 699279,
+              "sha256": "a5b03d2238e107a0e63853976143cb0ae9fa7c23ddfb9712c0aaa615ce4d1d8f",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 34,
+                "height": 32
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 3400,
+                "height": 3200
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 6800,
+                "height": 6400,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 6804,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3202
+              },
+              "extend": {
+                "left": 2,
+                "top": 0,
+                "right": 0,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z1/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999959,
+                  0.999957,
+                  0.999944,
+                  0.999927
+                ],
+                "minimum": 0.999927,
+                "average": 0.99994675
+              },
+              "ssimBelowTarget": false,
+              "bytes": 336722,
+              "sha256": "8c21394f3ca13ac043a699593c66866763ed54e81185369046293dc5e4fcba3f",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 33,
+                "height": 32
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 3300,
+                "height": 3200
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 6600,
+                "height": 6400,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 6604,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3202
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 2,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z1/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999978,
+                  0.999977,
+                  0.999841,
+                  0.999874
+                ],
+                "minimum": 0.999841,
+                "average": 0.9999175
+              },
+              "ssimBelowTarget": false,
+              "bytes": 635231,
+              "sha256": "8cd2fb6c4136be56acbcecbc947d6ab929e7284a6466b44e05e66eea38bf89a6",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z2",
+          "gridPixels": 200,
+          "density": 2,
+          "gutter": 4,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 3404,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3404
+              },
+              "extend": {
+                "left": 4,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999988,
+                  0.999987,
+                  0.998873,
+                  0.999937
+                ],
+                "minimum": 0.998873,
+                "average": 0.9996962500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 124580,
+              "sha256": "a56608b87011cb9f307681beea3bcaafb4600fe5d7e1af00ba9924a89e25452b",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 1700,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 3400,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 3396,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  0.999999,
+                  0.99994,
+                  0.999997
+                ],
+                "minimum": 0.99994,
+                "average": 0.999984
+              },
+              "ssimBelowTarget": false,
+              "bytes": 133517,
+              "sha256": "897d88efebc9704a69f19f99503934f7aa1d4aa51869bd1252f85cae6299e582",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-2",
+              "row": 0,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/0-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999999,
+                  0.999999,
+                  0.999606,
+                  0.999993
+                ],
+                "minimum": 0.999606,
+                "average": 0.9998992499999999
+              },
+              "ssimBelowTarget": false,
+              "bytes": 622759,
+              "sha256": "3c191612815cfcb2aa549270808747a205c263836675b045dbd9073b25a9323e",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-3",
+              "row": 0,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 0,
+                "width": 16,
+                "height": 17
+              },
+              "scene": {
+                "x": 5100,
+                "y": 0,
+                "width": 1600,
+                "height": 1700
+              },
+              "source": {
+                "x": 10200,
+                "y": 0,
+                "width": 3200,
+                "height": 3400,
+                "cropX": 10196,
+                "cropY": 0,
+                "cropWidth": 3204,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 3396,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999981,
+                  0.999976,
+                  0.999301,
+                  0.999999
+                ],
+                "minimum": 0.999301,
+                "average": 0.99981425
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2549710,
+              "sha256": "18ee5fc08908ea457f87627cd5bf53703b6ced6bf755265482f89381fba0b4e3",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-2",
+              "row": 1,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/1-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999976,
+                  0.999978,
+                  0.999383,
+                  0.99999
+                ],
+                "minimum": 0.999383,
+                "average": 0.99983175
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2005027,
+              "sha256": "aa5ec5cc51e5c91066df6e3447adedf84a45614c83aa70b077d117eac2f6faa5",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-3",
+              "row": 1,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 17,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 1700,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 3400,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 3396,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-0",
+              "row": 2,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/2-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "minimum": 1,
+                "average": 1
+              },
+              "ssimBelowTarget": false,
+              "bytes": 16008,
+              "sha256": "9a527f3e2e6c160f4b576142f82f53dd78cac8a6c50e63e528d2896733d49e03",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-1",
+              "row": 2,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/2-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999974,
+                  0.999977,
+                  0.999966,
+                  0.999995
+                ],
+                "minimum": 0.999966,
+                "average": 0.999978
+              },
+              "ssimBelowTarget": false,
+              "bytes": 836564,
+              "sha256": "dbf6fe694544006e54a3f7d687b68a37c2ce71759eeda524d153b58d037137b5",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-2",
+              "row": 2,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/2-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999978,
+                  0.999979,
+                  0.999538,
+                  0.999995
+                ],
+                "minimum": 0.999538,
+                "average": 0.9998724999999999
+              },
+              "ssimBelowTarget": false,
+              "bytes": 600488,
+              "sha256": "e98f3d5f4e5e2aaa7f07b38327ae204fa631a118023871356278569764b44ad5",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-3",
+              "row": 2,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 33,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 3300,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 6600,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 6596,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-0",
+              "row": 3,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 9796,
+                "cropWidth": 3404,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3204
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/3-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999976,
+                  0.999973,
+                  0.997866,
+                  0.999811
+                ],
+                "minimum": 0.997866,
+                "average": 0.9994065000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 420738,
+              "sha256": "8d470bc5f35b7cfb25ef7e46b1d91a0d22156f76c9f9983b63fdc562375299f1",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-1",
+              "row": 3,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-2",
+              "row": 3,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/3-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999952,
+                  0.999936,
+                  0.994703,
+                  0.99992
+                ],
+                "minimum": 0.994703,
+                "average": 0.9986277499999999
+              },
+              "ssimBelowTarget": false,
+              "bytes": 779556,
+              "sha256": "4b519b1225f42ae852eac2343f481cc54eac909fa8cc5873c5f023a5c73aceac",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-3",
+              "row": 3,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 49,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 4900,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 9800,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 9796,
+                "cropWidth": 3204,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/roof/z2/3-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999996,
+                  0.999993,
+                  0.99774,
+                  0.999962
+                ],
+                "minimum": 0.99774,
+                "average": 0.99942275
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1055826,
+              "sha256": "b89b03ebca733a1a1bd2b6df2deb3d95eb0cf603f3c44b417a27bdeb7044161e",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zMTCOj9sUGUL9dqx",
+      "name": "Basement",
+      "slug": "basement",
+      "master": {
+        "path": "basement.webp",
+        "width": 13400,
+        "height": 13000,
+        "channels": 4,
+        "colorSpace": "srgb",
+        "sha256": "8a9bfeba9dd40e66fae4b90e0d9300b3dbae56b3fd260efcab81cfb51df544dd",
+        "bytes": 86773870
+      },
+      "tiers": [
+        {
+          "id": "z0",
+          "gridPixels": 50,
+          "density": 0.5,
+          "gutter": 1,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 65
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 6700,
+                "height": 6500
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 13400,
+                "height": 13000,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 13400,
+                "cropHeight": 13000
+              },
+              "resize": {
+                "width": 3350,
+                "height": 3250
+              },
+              "extend": {
+                "left": 1,
+                "top": 1,
+                "right": 1,
+                "bottom": 1
+              },
+              "frame": {
+                "x": 1,
+                "y": 1,
+                "width": 3350,
+                "height": 3250
+              },
+              "pixel": {
+                "width": 3352,
+                "height": 3252
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z0/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999957,
+                  0.999926,
+                  0.99991,
+                  0.999945
+                ],
+                "minimum": 0.99991,
+                "average": 0.9999345
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2066830,
+              "sha256": "2ada22dc576bd55d844c13ce4c4696c908a2ebbd4205f4fd2192d6babf349340",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z1",
+          "gridPixels": 100,
+          "density": 1,
+          "gutter": 2,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 34,
+                "height": 33
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3300
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6800,
+                "height": 6600,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 6804,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3302
+              },
+              "extend": {
+                "left": 2,
+                "top": 2,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z1/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  0.999998,
+                  0.999998,
+                  0.999996
+                ],
+                "minimum": 0.999996,
+                "average": 0.999998
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1341080,
+              "sha256": "66b6cae0bd15b674eb9767893e6b315d7d08d138c54cac987ed60fd9e9d194b1",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 33,
+                "height": 33
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 3300,
+                "height": 3300
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 6600,
+                "height": 6600,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 6604,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3302
+              },
+              "extend": {
+                "left": 0,
+                "top": 2,
+                "right": 2,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z1/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999994,
+                  0.999991,
+                  0.999986,
+                  0.999988
+                ],
+                "minimum": 0.999986,
+                "average": 0.9999897500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1983335,
+              "sha256": "555f978770a059ddc0428cf716c09c1647a7a72c39e7a5b06978abf09aa4e6d3",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 34,
+                "height": 32
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 3400,
+                "height": 3200
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 6800,
+                "height": 6400,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 6804,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3202
+              },
+              "extend": {
+                "left": 2,
+                "top": 0,
+                "right": 0,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z1/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999785,
+                  0.999731,
+                  0.999572,
+                  0.999894
+                ],
+                "minimum": 0.999572,
+                "average": 0.9997455
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2541138,
+              "sha256": "69247c778fdd96250fe881f9266b0639c3bae2c3aa3a53779293b07452e56b25",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 33,
+                "height": 32
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 3300,
+                "height": 3200
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 6600,
+                "height": 6400,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 6604,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3202
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 2,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3204
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z1/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999694,
+                  0.999726,
+                  0.999653,
+                  0.999806
+                ],
+                "minimum": 0.999653,
+                "average": 0.99971975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1989257,
+              "sha256": "2efef1f10aeb220177b8e2c4ada51da2e91a3e3006421905a8522e9d3005f416",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z2",
+          "gridPixels": 200,
+          "density": 2,
+          "gutter": 4,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 3404,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3404
+              },
+              "extend": {
+                "left": 4,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 1700,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 3400,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 3396,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "minimum": 1,
+                "average": 1
+              },
+              "ssimBelowTarget": false,
+              "bytes": 378154,
+              "sha256": "d1a83f3d00df8bf91ea68c3c98564567178362ede5af582ea959566d7c42773c",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-2",
+              "row": 0,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/0-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  0.999999
+                ],
+                "minimum": 0.999999,
+                "average": 0.99999975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1784620,
+              "sha256": "d52373eedda70bb366f20897959048b87dc046cb0005922407bea00d68e7282b",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-3",
+              "row": 0,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 0,
+                "width": 16,
+                "height": 17
+              },
+              "scene": {
+                "x": 5100,
+                "y": 0,
+                "width": 1600,
+                "height": 1700
+              },
+              "source": {
+                "x": 10200,
+                "y": 0,
+                "width": 3200,
+                "height": 3400,
+                "cropX": 10196,
+                "cropY": 0,
+                "cropWidth": 3204,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 3396,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/1-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  0.999999
+                ],
+                "minimum": 0.999999,
+                "average": 0.99999975
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2213984,
+              "sha256": "fc6db20623d93ad77de668d1c6fa1f74716f703e7897b24dd5c0325466ece4f5",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/1-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999989,
+                  0.999989,
+                  0.999978,
+                  0.999992
+                ],
+                "minimum": 0.999978,
+                "average": 0.999987
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2760964,
+              "sha256": "86380700292f54d3fde60e487167ceb7274cff55e78f69a095e8a3d5642fbfe9",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-2",
+              "row": 1,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/1-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999968,
+                  0.999975,
+                  0.999904,
+                  0.999993
+                ],
+                "minimum": 0.999904,
+                "average": 0.99996
+              },
+              "ssimBelowTarget": false,
+              "bytes": 4705323,
+              "sha256": "c96b697bc493ebb0abb49d5f70b912f4bdadd1551d6b5f6d6137538bcffc8a9a",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-3",
+              "row": 1,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 17,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 1700,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 3400,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 3396,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/1-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  0.999998
+                ],
+                "minimum": 0.999998,
+                "average": 0.9999995
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1319410,
+              "sha256": "8b47303208e5941ba981f51b0ec6571b9d7ad05f4179ccdda8c24e71b3714816",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-0",
+              "row": 2,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/2-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999964,
+                  0.999968,
+                  0.999829,
+                  0.999995
+                ],
+                "minimum": 0.999829,
+                "average": 0.9999389999999999
+              },
+              "ssimBelowTarget": false,
+              "bytes": 3421731,
+              "sha256": "cbc8dbe88ccff863ecc81335b765c3c6c3be9d518b9c25293875e78d386f5db8",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-1",
+              "row": 2,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/2-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999961,
+                  0.999932,
+                  0.999633,
+                  0.999988
+                ],
+                "minimum": 0.999633,
+                "average": 0.9998785000000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 4768813,
+              "sha256": "08648e36343cc97c0304120e97df54b78e4211c1c8943769fe28d4429199996a",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-2",
+              "row": 2,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/2-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999947,
+                  0.999955,
+                  0.999923,
+                  0.999958
+                ],
+                "minimum": 0.999923,
+                "average": 0.99994575
+              },
+              "ssimBelowTarget": false,
+              "bytes": 4899319,
+              "sha256": "b5a0cbbabad3436ee12193e3742729317868f9e124bf782e15da8a5f4e5e9423",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "2-3",
+              "row": 2,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 33,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 3300,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 6600,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 6596,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/2-3.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999838,
+                  0.999962,
+                  0.999959,
+                  0.999965
+                ],
+                "minimum": 0.999838,
+                "average": 0.999931
+              },
+              "ssimBelowTarget": false,
+              "bytes": 614504,
+              "sha256": "6b3104f5ca4c7e7864e2e22ceffe2df987bd8a91d0cf0517dd69262f52ecbb5b",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-0",
+              "row": 3,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 9796,
+                "cropWidth": 3404,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3204
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/3-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999972,
+                  0.999973,
+                  0.999968,
+                  0.999986
+                ],
+                "minimum": 0.999968,
+                "average": 0.99997475
+              },
+              "ssimBelowTarget": false,
+              "bytes": 540988,
+              "sha256": "1b62046d873c97e30325d65ba8f266ca43afd39f0fe63607b2624a117255ec79",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-1",
+              "row": 3,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/3-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999842,
+                  0.999883,
+                  0.999871,
+                  0.999969
+                ],
+                "minimum": 0.999842,
+                "average": 0.99989125
+              },
+              "ssimBelowTarget": false,
+              "bytes": 1695362,
+              "sha256": "4e7900d1ac675e02d1be6f348c2c7fd4eaf896466ef295fb1bf4fc70c7fcab18",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-2",
+              "row": 3,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/basement/z2/3-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999961,
+                  0.999972,
+                  0.999908,
+                  0.999993
+                ],
+                "minimum": 0.999908,
+                "average": 0.9999585
+              },
+              "ssimBelowTarget": false,
+              "bytes": 2251830,
+              "sha256": "bdb02905ebbb31b607c988517039709712f136c486394ab86858a7716fa41a42",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "3-3",
+              "row": 3,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 49,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 4900,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 9800,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 9796,
+                "cropWidth": 3204,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "AObrWBg2H5FlYh3O",
+      "name": "Oubliette",
+      "slug": "oubliette",
+      "master": {
+        "path": "oubliette.webp",
+        "width": 13400,
+        "height": 13000,
+        "channels": 4,
+        "colorSpace": "srgb",
+        "sha256": "41533ba75aae791e55f294fccfb047db97d19e7faaf1909da2f8273b54d20a1b",
+        "bytes": 88363168
+      },
+      "tiers": [
+        {
+          "id": "z0",
+          "gridPixels": 50,
+          "density": 0.5,
+          "gutter": 1,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 67,
+                "height": 65
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 6700,
+                "height": 6500
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 13400,
+                "height": 13000,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 13400,
+                "cropHeight": 13000
+              },
+              "resize": {
+                "width": 3350,
+                "height": 3250
+              },
+              "extend": {
+                "left": 1,
+                "top": 1,
+                "right": 1,
+                "bottom": 1
+              },
+              "frame": {
+                "x": 1,
+                "y": 1,
+                "width": 3350,
+                "height": 3250
+              },
+              "pixel": {
+                "width": 3352,
+                "height": 3252
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/oubliette/z0/0-0.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999995,
+                  0.999993,
+                  0.999992,
+                  0.999998
+                ],
+                "minimum": 0.999992,
+                "average": 0.9999945
+              },
+              "ssimBelowTarget": false,
+              "bytes": 28118,
+              "sha256": "6dc1942c486b254e9e82f6be4bf4fd89ae6bc3fdb6902a177cef248b6f0acd1e",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            }
+          ]
+        },
+        {
+          "id": "z1",
+          "gridPixels": 100,
+          "density": 1,
+          "gutter": 2,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 34,
+                "height": 33
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3300
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6800,
+                "height": 6600,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 6804,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3302
+              },
+              "extend": {
+                "left": 2,
+                "top": 2,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3304
+              },
+              "blank": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 33,
+                "height": 33
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 3300,
+                "height": 3300
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 6600,
+                "height": 6600,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 6604,
+                "cropHeight": 6604
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3302
+              },
+              "extend": {
+                "left": 0,
+                "top": 2,
+                "right": 2,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3300
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3304
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/oubliette/z1/0-1.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999999,
+                  0.999999,
+                  0.999997,
+                  0.999998
+                ],
+                "minimum": 0.999997,
+                "average": 0.9999982500000001
+              },
+              "ssimBelowTarget": false,
+              "bytes": 98108,
+              "sha256": "ef7bc1af8f3bce92b52effc81fe65e1de26ec4410dca8fbd8ae6e31506ce4654",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 34,
+                "height": 32
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 3400,
+                "height": 3200
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 6800,
+                "height": 6400,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 6804,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3402,
+                "height": 3202
+              },
+              "extend": {
+                "left": 2,
+                "top": 0,
+                "right": 0,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3404,
+                "height": 3204
+              },
+              "blank": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 33,
+                "height": 32
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 3300,
+                "height": 3200
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 6600,
+                "height": 6400,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 6604,
+                "cropHeight": 6404
+              },
+              "resize": {
+                "width": 3302,
+                "height": 3202
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 2,
+                "bottom": 2
+              },
+              "frame": {
+                "x": 2,
+                "y": 2,
+                "width": 3300,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3304,
+                "height": 3204
+              },
+              "blank": true
+            }
+          ]
+        },
+        {
+          "id": "z2",
+          "gridPixels": 200,
+          "density": 2,
+          "gutter": 4,
+          "tiles": [
+            {
+              "id": "0-0",
+              "row": 0,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 0,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 0,
+                "cropY": 0,
+                "cropWidth": 3404,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3404
+              },
+              "extend": {
+                "left": 4,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "0-1",
+              "row": 0,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 1700,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 3400,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 3396,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "0-2",
+              "row": 0,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 0,
+                "width": 17,
+                "height": 17
+              },
+              "scene": {
+                "x": 3400,
+                "y": 0,
+                "width": 1700,
+                "height": 1700
+              },
+              "source": {
+                "x": 6800,
+                "y": 0,
+                "width": 3400,
+                "height": 3400,
+                "cropX": 6796,
+                "cropY": 0,
+                "cropWidth": 3408,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3408
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/oubliette/z2/0-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "minimum": 1,
+                "average": 1
+              },
+              "ssimBelowTarget": false,
+              "bytes": 277839,
+              "sha256": "76f72dfee36b2101ede5330e0a89d25bac3622bbfc2c2fb02cdb1909238b28df",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "0-3",
+              "row": 0,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 0,
+                "width": 16,
+                "height": 17
+              },
+              "scene": {
+                "x": 5100,
+                "y": 0,
+                "width": 1600,
+                "height": 1700
+              },
+              "source": {
+                "x": 10200,
+                "y": 0,
+                "width": 3200,
+                "height": 3400,
+                "cropX": 10196,
+                "cropY": 0,
+                "cropWidth": 3204,
+                "cropHeight": 3404
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3404
+              },
+              "extend": {
+                "left": 0,
+                "top": 4,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3400
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3408
+              },
+              "blank": true
+            },
+            {
+              "id": "1-0",
+              "row": 1,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 3396,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "1-1",
+              "row": 1,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "1-2",
+              "row": 1,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 17,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 1700,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 3400,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 3396,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/oubliette/z2/1-2.ktx2",
+              "encoding": "uastc",
+              "ssim": {
+                "channels": [
+                  0.999967,
+                  0.999966,
+                  0.999965,
+                  0.999978
+                ],
+                "minimum": 0.999965,
+                "average": 0.999969
+              },
+              "ssimBelowTarget": false,
+              "bytes": 86761,
+              "sha256": "41db6baf7599e6ed5ffb4200b1a5bce9dbac2fafcd67eed8df08754f2e9bb690",
+              "mipLevels": 1,
+              "premultipliedAlpha": true
+            },
+            {
+              "id": "1-3",
+              "row": 1,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 17,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 1700,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 3400,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 3396,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-0",
+              "row": 2,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 6596,
+                "cropWidth": 3404,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3208
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-1",
+              "row": 2,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-2",
+              "row": 2,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 33,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 3300,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 6600,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 6596,
+                "cropWidth": 3408,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "2-3",
+              "row": 2,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 33,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 3300,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 6600,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 6596,
+                "cropWidth": 3204,
+                "cropHeight": 3208
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3208
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 0
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-0",
+              "row": 3,
+              "column": 0,
+              "grid": {
+                "x": 0,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 0,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 0,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 0,
+                "cropY": 9796,
+                "cropWidth": 3404,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3404,
+                "height": 3204
+              },
+              "extend": {
+                "left": 4,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-1",
+              "row": 3,
+              "column": 1,
+              "grid": {
+                "x": 17,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 1700,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 3400,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 3396,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-2",
+              "row": 3,
+              "column": 2,
+              "grid": {
+                "x": 34,
+                "y": 49,
+                "width": 17,
+                "height": 16
+              },
+              "scene": {
+                "x": 3400,
+                "y": 4900,
+                "width": 1700,
+                "height": 1600
+              },
+              "source": {
+                "x": 6800,
+                "y": 9800,
+                "width": 3400,
+                "height": 3200,
+                "cropX": 6796,
+                "cropY": 9796,
+                "cropWidth": 3408,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3408,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3400,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3408,
+                "height": 3208
+              },
+              "blank": true
+            },
+            {
+              "id": "3-3",
+              "row": 3,
+              "column": 3,
+              "grid": {
+                "x": 51,
+                "y": 49,
+                "width": 16,
+                "height": 16
+              },
+              "scene": {
+                "x": 5100,
+                "y": 4900,
+                "width": 1600,
+                "height": 1600
+              },
+              "source": {
+                "x": 10200,
+                "y": 9800,
+                "width": 3200,
+                "height": 3200,
+                "cropX": 10196,
+                "cropY": 9796,
+                "cropWidth": 3204,
+                "cropHeight": 3204
+              },
+              "resize": {
+                "width": 3204,
+                "height": 3204
+              },
+              "extend": {
+                "left": 0,
+                "top": 0,
+                "right": 4,
+                "bottom": 4
+              },
+              "frame": {
+                "x": 4,
+                "y": 4,
+                "width": 3200,
+                "height": 3200
+              },
+              "pixel": {
+                "width": 3208,
+                "height": 3208
+              },
+              "blank": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

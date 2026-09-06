@@ -1,0 +1,58 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      # Header/hash checks only. Foundry and the renderer SceneManager are not required.
+      KTX2_RENDERER_ROOT: ${{ github.workspace }}/theiks-ktx2-renderer
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check out KTX2 renderer CLI
+        uses: actions/checkout@v4
+        with:
+          repository: Theik/theiks-ktx2-renderer
+          path: theiks-ktx2-renderer
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install renderer CLI dependencies
+        run: npm ci
+        working-directory: theiks-ktx2-renderer
+
+      - name: Run tests
+        run: npm test
+
+      - name: Verify generated map assets
+        run: npm run maps:verify -- --runtime-only
+
+      - name: Build release assets
+        run: npm run release:build -- --tag "$GITHUB_REF_NAME"
+
+      - name: Publish GitHub release
+        run: >-
+          gh release create "$GITHUB_REF_NAME"
+          dist/theiks-harrowstone.zip
+          dist/module.json
+          --generate-notes
+          --title "Tabletop by Theik - Harrowstone $GITHUB_REF_NAME"
+        env:
+          GH_TOKEN: ${{ github.token }}

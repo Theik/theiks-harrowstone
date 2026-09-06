@@ -1,0 +1,20 @@
+# IDE and operating-system files
+/.idea/
+.DS_Store
+Thumbs.db
+
+# Development dependencies and generated releases
+/node_modules/
+/dist/
+/.tools/
+/.map-staging/
+
+# Local map authoring sources. Generated runtime tiles are committed.
+/assets/masters/
+/assets/maps/*.dungeondraft_map
+
+# Generated Foundry LevelDB compendiums
+/packs/
+
+# CI checkout of the renderer CLI (local installs use the sibling Data/modules folder)
+/theiks-ktx2-renderer/

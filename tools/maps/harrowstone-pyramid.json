@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "scene": {
+    "id": "hTGtBrMEJCXdW6er",
+    "name": "Harrowstone",
+    "width": 6700,
+    "height": 6500,
+    "padding": 0.1,
+    "gridSize": 100,
+    "masterWidth": 13400,
+    "masterHeight": 13000,
+    "masterGridSize": 200,
+    "expectedCounts": {
+      "levels": 5,
+      "walls": 1137,
+      "tiles": 6,
+      "regions": 9
+    }
+  },
+  "encoder": {
+    "name": "KTX-Software",
+    "version": "4.4.2",
+    "primaryEncoding": "uastc",
+    "mipLevels": 1,
+    "minimumSsim": 0.96,
+    "uastcQuality": 2,
+    "zstdLevel": 18
+  },
+  "tiers": [
+    {
+      "id": "z0",
+      "gridPixels": 50,
+      "columns": [67],
+      "rows": [65],
+      "gutter": 1
+    },
+    {
+      "id": "z1",
+      "gridPixels": 100,
+      "columns": [34, 33],
+      "rows": [33, 32],
+      "gutter": 2
+    },
+    {
+      "id": "z2",
+      "gridPixels": 200,
+      "columns": [17, 17, 17, 16],
+      "rows": [17, 16, 16, 16],
+      "gutter": 4
+    }
+  ],
+  "levels": [
+    {
+      "id": "defaultLevel0000",
+      "name": "Ground Floor",
+      "slug": "ground-floor",
+      "master": "assets/masters/ground-floor.webp"
+    },
+    {
+      "id": "PRSFmCV18iW5J0Jr",
+      "name": "First Floor",
+      "slug": "first-floor",
+      "master": "assets/masters/first-floor.webp"
+    },
+    {
+      "id": "QeGYANMpzdBdB1LS",
+      "name": "Roof",
+      "slug": "roof",
+      "master": "assets/masters/roof.webp"
+    },
+    {
+      "id": "zMTCOj9sUGUL9dqx",
+      "name": "Basement",
+      "slug": "basement",
+      "master": "assets/masters/basement.webp"
+    },
+    {
+      "id": "AObrWBg2H5FlYh3O",
+      "name": "Oubliette",
+      "slug": "oubliette",
+      "master": "assets/masters/oubliette.webp"
+    }
+  ]
+}
