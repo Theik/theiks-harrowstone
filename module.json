@@ -2,7 +2,7 @@
   "id": "theiks-harrowstone",
   "title": "Tabletop by Theik - Harrowstone",
   "description": "A multilevel Foundry Virtual Tabletop map of Harrowstone from The Haunting of Harrowstone.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Theik",
@@ -36,7 +36,7 @@
   },
   "url": "https://github.com/Theik/theiks-harrowstone",
   "manifest": "https://github.com/Theik/theiks-harrowstone/releases/latest/download/module.json",
-  "download": "https://github.com/Theik/theiks-harrowstone/releases/download/v1.0.0/theiks-harrowstone.zip",
+  "download": "https://github.com/Theik/theiks-harrowstone/releases/download/v1.0.1/theiks-harrowstone.zip",
   "bugs": "https://github.com/Theik/theiks-harrowstone/issues",
   "readme": "https://github.com/Theik/theiks-harrowstone/blob/main/README.md",
   "license": "LICENSE",

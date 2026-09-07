@@ -24,6 +24,12 @@ assert.equal(scene.grid?.size, config.scene.gridSize, "Scene grid size changed."
 for (const [key, expected] of Object.entries(config.scene.expectedCounts)) {
   assert.equal(scene[key]?.length, expected, `Scene ${key} count changed.`);
 }
+for (const [levelId, expected] of Object.entries(config.scene.expectedLevelWallCounts ?? {})) {
+  const level = scene.levels.find(entry => entry._id === levelId);
+  assert.ok(level, `Scene is missing expected Level ${levelId}.`);
+  const walls = scene.walls.filter(wall => wall.levels?.includes(levelId));
+  assert.equal(walls.length, expected, `${level.name} wall count changed.`);
+}
 assert.equal(scene.flags?.[RENDERER_ID]?.mapPyramid?.manifest, `${MODULE_PATH}/manifest.json`, "Scene pyramid flag is missing or incorrect.");
 assert.ok(!scene.flags?.["theiks-harrowstone"]?.mapPyramid, "Scene still uses the old Harrowstone pyramid flag.");
 assert.equal(scene.thumb, manifest.thumbnail.path, "Scene thumbnail does not use the generated asset.");
