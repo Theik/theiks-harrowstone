@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "moduleId": "theiks-harrowstone",
-  "generatedAt": "2026-09-07T17:10:02.969Z",
-  "configSha256": "53b8ca94adbda6727f2ad324eb926a77d01460f9a20e82e20d42cef690feb456",
+  "generatedAt": "2026-09-08T21:49:13.660Z",
+  "configSha256": "1e69864f7bc00e6a5bd7321ac490da015ad7e55eb30a0f6a17ffadaf203922b0",
   "scene": {
     "id": "hTGtBrMEJCXdW6er",
     "name": "Harrowstone",
@@ -15,16 +15,16 @@
     "masterGridSize": 200,
     "expectedCounts": {
       "levels": 5,
-      "walls": 1936,
-      "tiles": 9,
+      "walls": 1943,
+      "tiles": 10,
       "regions": 11,
       "lights": 0
     },
     "expectedLevelWallCounts": {
       "defaultLevel0000": 557,
-      "PRSFmCV18iW5J0Jr": 472,
+      "PRSFmCV18iW5J0Jr": 478,
       "QeGYANMpzdBdB1LS": 93,
-      "zMTCOj9sUGUL9dqx": 920,
+      "zMTCOj9sUGUL9dqx": 921,
       "AObrWBg2H5FlYh3O": 25
     }
   },
@@ -41,8 +41,8 @@
     "path": "modules/theiks-harrowstone/assets/maps/harrowstone-pyramid/thumb.webp",
     "width": 512,
     "height": 497,
-    "bytes": 64060,
-    "sha256": "14f5e1c7cc6c696a62e813b92426abc0480b3f1d1e2da21ace6815afb5776ffd"
+    "bytes": 53044,
+    "sha256": "310092b5699128436d0823b2f2244b42ef08954d7c36e2a112acd84703a08b0f"
   },
   "levels": [
     {
@@ -55,7 +55,7 @@
         "height": 13000,
         "channels": 4,
         "colorSpace": "srgb",
-        "sha256": "582c09a2ac2044d6ae4874b3ea7fd4fa038f06d08c79253b4d4c64e47c79b730",
+        "sha256": "008e1f32bda239fd8885245c4dff1df71dd3d5aa351fb076265daa190e8b2dd3",
         "bytes": 227824906
       },
       "tiers": [
@@ -115,17 +115,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.998833,
-                  0.999249,
-                  0.992779,
-                  0.999379
+                  0.998895,
+                  0.999281,
+                  0.993341,
+                  0.999987
                 ],
-                "minimum": 0.992779,
-                "average": 0.99756
+                "minimum": 0.993341,
+                "average": 0.997876
               },
               "ssimBelowTarget": false,
-              "bytes": 7826543,
-              "sha256": "02295ee5ec05f728d00156398a0bd0362b8de7bb21bb50d10a53bed7f33a731c",
+              "bytes": 7725790,
+              "sha256": "c1e87b5fb967dd68a8766914ccf47ea5d73eb240ebada3767cf1ee2c164fd2c5",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -187,17 +187,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.997898,
-                  0.998966,
-                  0.987681,
-                  0.999856
+                  0.997984,
+                  0.999,
+                  0.988266,
+                  0.999995
                 ],
-                "minimum": 0.987681,
-                "average": 0.9961002499999999
+                "minimum": 0.988266,
+                "average": 0.99631125
               },
               "ssimBelowTarget": false,
-              "bytes": 7091973,
-              "sha256": "97baa013983ae40f20bce04078d5223ac2bf9eaf41548ebb50870da079356ab4",
+              "bytes": 6950510,
+              "sha256": "4b5290fa62414f1a4e5060f16dbd6503549dca6a279004632ad4c5af420df790",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -251,17 +251,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.998729,
-                  0.999269,
-                  0.989875,
-                  0.999643
+                  0.998796,
+                  0.999276,
+                  0.990593,
+                  0.999996
                 ],
-                "minimum": 0.989875,
-                "average": 0.996879
+                "minimum": 0.990593,
+                "average": 0.99716525
               },
               "ssimBelowTarget": false,
-              "bytes": 7475006,
-              "sha256": "abe9e36f712713a4b074cda501c6e1b4b14512476dd6c5d541373c6d143f25c0",
+              "bytes": 7414779,
+              "sha256": "cc6c68d02ad3e0f720fa5cb5714cac5be38ef0343673d67ddbc99c7fc394efd1",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -315,17 +315,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999751,
-                  0.999851,
-                  0.991742,
-                  0.999422
+                  0.999777,
+                  0.99986,
+                  0.992741,
+                  0.999926
                 ],
-                "minimum": 0.991742,
-                "average": 0.9976915
+                "minimum": 0.992741,
+                "average": 0.998076
               },
               "ssimBelowTarget": false,
-              "bytes": 7788852,
-              "sha256": "10afd2ee8728bbb85c79d6353977f740be206bf8102bd30041bc234149ecaef5",
+              "bytes": 7647549,
+              "sha256": "e0932ecc90f93c6b3d991572577059458d67832f9b029f7ee9bfffb5d3033a95",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -379,17 +379,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999841,
-                  0.99989,
-                  0.995322,
-                  0.999835
+                  0.999856,
+                  0.999899,
+                  0.99545,
+                  0.999982
                 ],
-                "minimum": 0.995322,
-                "average": 0.998722
+                "minimum": 0.99545,
+                "average": 0.99879675
               },
               "ssimBelowTarget": false,
-              "bytes": 7645484,
-              "sha256": "5dd8da6114915288726f223f861540ac0fc00cfc95c2481c566989311d4a3ce0",
+              "bytes": 7595049,
+              "sha256": "b98bc6b51f63239b9524d2a95d860cc00e97adbe8a8160a7336aa4f60484b275",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -451,17 +451,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999118,
-                  0.999724,
-                  0.988405,
-                  0.999951
+                  0.999325,
+                  0.999765,
+                  0.989739,
+                  1
                 ],
-                "minimum": 0.988405,
-                "average": 0.9967995000000001
+                "minimum": 0.989739,
+                "average": 0.99720725
               },
               "ssimBelowTarget": false,
-              "bytes": 7072116,
-              "sha256": "83613d910ebfc29bd0bbaec9c8b4103bbcd8d70d2efc08e507ebd80bf516d122",
+              "bytes": 6924106,
+              "sha256": "d7ffb2120667026f971061f68ee714542211da01189e17192499676b7d69cf94",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -517,15 +517,15 @@
                 "channels": [
                   0.997448,
                   0.998608,
-                  0.987607,
-                  0.999992
+                  0.987692,
+                  1
                 ],
-                "minimum": 0.987607,
-                "average": 0.9959137499999999
+                "minimum": 0.987692,
+                "average": 0.9959370000000001
               },
               "ssimBelowTarget": false,
-              "bytes": 8189833,
-              "sha256": "6ae8f64e466d50cf26a063783c0ad3440b871095bdd407fd6e324f8be1c56a6e",
+              "bytes": 8065813,
+              "sha256": "526da734dd3d4dec9723eab84afd68b8f5e04e816f422dc174f4ea0a3ba6e832",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -579,17 +579,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999428,
-                  0.999727,
-                  0.991112,
-                  0.999996
+                  0.999442,
+                  0.999731,
+                  0.991477,
+                  1
                 ],
-                "minimum": 0.991112,
-                "average": 0.99756575
+                "minimum": 0.991477,
+                "average": 0.9976625
               },
               "ssimBelowTarget": false,
-              "bytes": 8243158,
-              "sha256": "95150c19d7e8e0e61bdbcf4fce4e8d1f49d1d1b798b0f8ef8f66a1ceb48650d7",
+              "bytes": 8139490,
+              "sha256": "0d371e6ecd697186afb45cf82ce39900b971d2ccbb5becb19a6da1a85b9607b1",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -644,16 +644,16 @@
               "ssim": {
                 "channels": [
                   0.99845,
-                  0.999274,
-                  0.989111,
-                  0.999992
+                  0.999273,
+                  0.989227,
+                  1
                 ],
-                "minimum": 0.989111,
-                "average": 0.99670675
+                "minimum": 0.989227,
+                "average": 0.9967374999999999
               },
               "ssimBelowTarget": false,
-              "bytes": 8049182,
-              "sha256": "647e42bdf857518df8c68eda18ba959aae3f8334a6e6221f2d438a39da5f1a8a",
+              "bytes": 7969982,
+              "sha256": "49109e521d454bb4c60456cd837381311c827534478233f68ef5b066dfd108b6",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -707,17 +707,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999588,
-                  0.999696,
-                  0.991578,
-                  0.9999
+                  0.999668,
+                  0.999721,
+                  0.992216,
+                  0.999997
                 ],
-                "minimum": 0.991578,
-                "average": 0.9976905
+                "minimum": 0.992216,
+                "average": 0.9979005
               },
               "ssimBelowTarget": false,
-              "bytes": 7428159,
-              "sha256": "9d77c9004bc12251a2b106c0e37c834c002349cac740990b525cd42a55274741",
+              "bytes": 7290722,
+              "sha256": "4a275513e5e80d760dda289f8bbc6f0868a19fac9ec65765ddd88c86205bd88a",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -771,17 +771,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999702,
-                  0.999798,
-                  0.995033,
-                  0.999946
+                  0.999756,
+                  0.999815,
+                  0.995471,
+                  0.999997
                 ],
-                "minimum": 0.995033,
-                "average": 0.9986197499999999
+                "minimum": 0.995471,
+                "average": 0.99875975
               },
               "ssimBelowTarget": false,
-              "bytes": 7745006,
-              "sha256": "ae75ee439a8e97984e34555f90a0973eb9f7283d71dc1e07a47f3e8b53b69da9",
+              "bytes": 7727387,
+              "sha256": "ddb39a1a526e6b5645e95b2fbc6c8d3b8baeb0db1c139840a6d51fffc1f141e2",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -835,17 +835,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999359,
-                  0.999576,
-                  0.996785,
-                  0.999333
+                  0.999478,
+                  0.999653,
+                  0.996987,
+                  0.99992
                 ],
-                "minimum": 0.996785,
-                "average": 0.99876325
+                "minimum": 0.996987,
+                "average": 0.9990095
               },
               "ssimBelowTarget": false,
-              "bytes": 6893248,
-              "sha256": "514b630c050842270f1bfde299bedbf79899c7dc48bed10e240d760ab3d30fe5",
+              "bytes": 6908817,
+              "sha256": "2c170e37dc082b36d36e1306e76abd39d8d5d4bc2c8935df779c05194f158821",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -908,8 +908,8 @@
                 "average": 0.99995675
               },
               "ssimBelowTarget": false,
-              "bytes": 4867313,
-              "sha256": "999f275800db4efd6b9efebf14f6837466dbd6fd97a9c5468b35b7adbf4f7a29",
+              "bytes": 4865504,
+              "sha256": "50250ecf240f8375cf15ebb209542b11b3df16f7433b7361708f7df3b68af788",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -963,17 +963,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.9998,
-                  0.999802,
-                  0.990216,
-                  0.999852
+                  0.999827,
+                  0.999818,
+                  0.990773,
+                  0.999969
                 ],
-                "minimum": 0.990216,
-                "average": 0.9974174999999998
+                "minimum": 0.990773,
+                "average": 0.99759675
               },
               "ssimBelowTarget": false,
-              "bytes": 7150490,
-              "sha256": "13a8dbc965196891f6390284a87b5527e5843fde1c049a88578cc27062ca25cf",
+              "bytes": 7025435,
+              "sha256": "c7075ea9bc02b10e86f0259e3957e9c44cab15e2aa2ce121e5606720e4f59c02",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1027,17 +1027,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999916,
+                  0.999917,
                   0.999947,
-                  0.995578,
-                  0.999971
+                  0.996052,
+                  1
                 ],
-                "minimum": 0.995578,
-                "average": 0.998853
+                "minimum": 0.996052,
+                "average": 0.9989790000000001
               },
               "ssimBelowTarget": false,
-              "bytes": 8057716,
-              "sha256": "f5bee644e45ebd1f1bec704a5ed7d50ee56039d9c8bae2dd8c664ab259e80814",
+              "bytes": 8007001,
+              "sha256": "109ba7e013157e3d6f7cd3278c0c31921178f516680aed3c399ac7afe81e7e36",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1093,15 +1093,15 @@
                 "channels": [
                   0.999968,
                   0.999972,
-                  0.998989,
-                  0.999976
+                  0.999008,
+                  0.999999
                 ],
-                "minimum": 0.998989,
-                "average": 0.9997262499999999
+                "minimum": 0.999008,
+                "average": 0.99973675
               },
               "ssimBelowTarget": false,
-              "bytes": 7570752,
-              "sha256": "d992cbfd286d68b747673084837f7cd9fcac9d5a3f8ba7ebcd4e520bc37f7059",
+              "bytes": 7526281,
+              "sha256": "a7db32686e45e78f8295af4ce3c3ce1ddf499ecb5f20dd424c07d9e6d0f6b601",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1155,17 +1155,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999845,
-                  0.999932,
-                  0.994264,
-                  0.999954
+                  0.999859,
+                  0.99994,
+                  0.994409,
+                  0.999994
                 ],
-                "minimum": 0.994264,
-                "average": 0.99849875
+                "minimum": 0.994409,
+                "average": 0.9985505
               },
               "ssimBelowTarget": false,
-              "bytes": 7523558,
-              "sha256": "371e90edc43679318eeb5e53238e62a6945db80305f98b6f8682b88c0de6c8f3",
+              "bytes": 7483039,
+              "sha256": "70d94516db46b522118b8b434c116e640f5df3464549b6ad7c8862e80c66f112",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1219,17 +1219,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999322,
-                  0.999445,
-                  0.984896,
-                  0.998157
+                  0.999539,
+                  0.999607,
+                  0.98633,
+                  0.999264
                 ],
-                "minimum": 0.984896,
-                "average": 0.995455
+                "minimum": 0.98633,
+                "average": 0.9961850000000001
               },
               "ssimBelowTarget": false,
-              "bytes": 8780040,
-              "sha256": "4e11041f5fe5e4dae965dca621b7aa52b565908a63db5367ec6f36333b0c6ea6",
+              "bytes": 8624397,
+              "sha256": "9dbc76d802d223f7724f900b3fa72324b9ee85459a50b2a9d0baa7c8ace4a472",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1283,17 +1283,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999719,
-                  0.999774,
-                  0.98937,
-                  0.999564
+                  0.999763,
+                  0.9998,
+                  0.989982,
+                  0.999995
                 ],
-                "minimum": 0.98937,
-                "average": 0.99710675
+                "minimum": 0.989982,
+                "average": 0.997385
               },
               "ssimBelowTarget": false,
-              "bytes": 8063193,
-              "sha256": "4ace59aa0756010646ae8a448e6e7b491dce2c5f1b660c50fc31eed27c0a545b",
+              "bytes": 7978235,
+              "sha256": "31ace46d97fa111a82d779b680432eba558b46132910ced2baaf7fda4633c43f",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1347,17 +1347,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999598,
-                  0.99968,
-                  0.993707,
-                  0.999679
+                  0.999606,
+                  0.99969,
+                  0.994022,
+                  0.999984
                 ],
-                "minimum": 0.993707,
-                "average": 0.998166
+                "minimum": 0.994022,
+                "average": 0.9983255
               },
               "ssimBelowTarget": false,
-              "bytes": 8033552,
-              "sha256": "92e666419a4c89eb36f9df9191d1e37df92693afde95443318d9847eb8252f45",
+              "bytes": 7997015,
+              "sha256": "c0bc7d0b5e0f2aa85f4c1bc5b801a3cc7f2a1dc810000f48b68b75cb81ea8e37",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1413,15 +1413,15 @@
                 "channels": [
                   0.999123,
                   0.999578,
-                  0.993088,
-                  0.999999
+                  0.993163,
+                  1
                 ],
-                "minimum": 0.993088,
-                "average": 0.9979469999999999
+                "minimum": 0.993163,
+                "average": 0.997966
               },
               "ssimBelowTarget": false,
-              "bytes": 7015768,
-              "sha256": "8edf0e9f5c807183bfcd5b5aaa0b2f870ea2895d773bde1e8ddc799e27521ab0",
+              "bytes": 7000973,
+              "sha256": "a3205aac78319b041767446d481928a4e08dedb1e087b36aa5b7831d9f0a8ce1",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -1439,7 +1439,7 @@
         "height": 13000,
         "channels": 4,
         "colorSpace": "srgb",
-        "sha256": "445fb6656688cc6244a1985dd645b9b6b9d60c83494ddf92febf858394a55cd3",
+        "sha256": "b9aa87060f30b2879974125a3632701b20d27300b8046e399e8076cc56a0b12b",
         "bytes": 85232212
       },
       "tiers": [
@@ -1500,16 +1500,16 @@
               "ssim": {
                 "channels": [
                   0.999995,
-                  0.999993,
-                  0.99987,
-                  0.99998
+                  0.999991,
+                  0.999877,
+                  0.999974
                 ],
-                "minimum": 0.99987,
-                "average": 0.9999595
+                "minimum": 0.999877,
+                "average": 0.99995925
               },
               "ssimBelowTarget": false,
-              "bytes": 1630322,
-              "sha256": "7c3c9462a33761e1c74fd89bc17074f7fdb1937199f72af7840d735acf445c62",
+              "bytes": 1631796,
+              "sha256": "ff0480828a31aa6838c953fecdad2011bb3778911d48b0cc65cd40940a3216d4",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -1572,16 +1572,16 @@
               "ssim": {
                 "channels": [
                   0.999999,
-                  0.999999,
-                  0.999954,
-                  0.999991
+                  0.999998,
+                  0.999956,
+                  0.999992
                 ],
-                "minimum": 0.999954,
-                "average": 0.99998575
+                "minimum": 0.999956,
+                "average": 0.9999862500000001
               },
               "ssimBelowTarget": false,
-              "bytes": 1657928,
-              "sha256": "f8d6e2e784a384dd568db8df195e606aa361c425f7db803248abbfea7af9ebe1",
+              "bytes": 1659638,
+              "sha256": "9dca4b5be95378f9cde5de8b35c60d4900262c154b4329ca2b85d39fdfa99256",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1635,17 +1635,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
+                  0.999999,
                   0.999998,
-                  0.999998,
-                  0.999965,
-                  0.999995
+                  0.999968,
+                  0.999985
                 ],
-                "minimum": 0.999965,
-                "average": 0.999989
+                "minimum": 0.999968,
+                "average": 0.9999875
               },
               "ssimBelowTarget": false,
-              "bytes": 2286331,
-              "sha256": "a2a06772e7a9337e985ec01fe1686831f8017fc649ccdb23db122cc25db4f457",
+              "bytes": 2290203,
+              "sha256": "85fb610d1b1cff9bcb31cdabe3070a9b770719fbe2eda9d988677b953c359840",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1699,17 +1699,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999935,
-                  0.999941,
-                  0.999611,
+                  0.999938,
+                  0.999945,
+                  0.999622,
                   0.999982
                 ],
-                "minimum": 0.999611,
-                "average": 0.9998672500000001
+                "minimum": 0.999622,
+                "average": 0.9998717500000001
               },
               "ssimBelowTarget": false,
-              "bytes": 1025447,
-              "sha256": "b6bb5cdf3027008fa765e474445ee695cc12ca4d62574a904e1aeeb3a471caec",
+              "bytes": 1026390,
+              "sha256": "62de1191c8000b7cfaa7fe87c52ae45a3237b7ba356146b948d750f9a7410af0",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1763,17 +1763,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999816,
-                  0.999807,
-                  0.998882,
-                  0.999963
+                  0.999825,
+                  0.999815,
+                  0.998901,
+                  0.999951
                 ],
-                "minimum": 0.998882,
-                "average": 0.9996170000000001
+                "minimum": 0.998901,
+                "average": 0.9996229999999999
               },
               "ssimBelowTarget": false,
-              "bytes": 1349187,
-              "sha256": "b80ae795ebf3ad7f848a3ca6e20009d9f35fe32ed86a0c73cf1e3337552438ca",
+              "bytes": 1351249,
+              "sha256": "e0ae52184ed42d1d9e3fc565b4002e3242430c98aa95a94818d031b43216f3ce",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -1885,15 +1885,15 @@
                 "channels": [
                   1,
                   1,
-                  0.999998,
-                  1
+                  0.999999,
+                  0.999999
                 ],
-                "minimum": 0.999998,
-                "average": 0.9999995
+                "minimum": 0.999999,
+                "average": 0.9999994999999999
               },
               "ssimBelowTarget": false,
-              "bytes": 46426,
-              "sha256": "ea1a6c1c167ab315db12756d562fd5841e5401262443d957e4e44d79905889a7",
+              "bytes": 47768,
+              "sha256": "19b5f153b2fb39d6f93731bdf2ab89e48fef78521bad4b50671215fa72531977",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -1950,14 +1950,14 @@
                   1,
                   1,
                   1,
-                  1
+                  0.999999
                 ],
-                "minimum": 1,
-                "average": 1
+                "minimum": 0.999999,
+                "average": 0.99999975
               },
               "ssimBelowTarget": false,
-              "bytes": 18964,
-              "sha256": "4ea282978109fc20a8e0e571fd3a408619daf0e3eb019e638899c7a1d0940fa0",
+              "bytes": 19921,
+              "sha256": "5d7410494dc92d4bc1a51acbee8b121d4060f168412686c0760c1025deb5aafc",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2061,15 +2061,15 @@
                 "channels": [
                   1,
                   1,
-                  0.999956,
-                  1
+                  0.999955,
+                  0.999999
                 ],
-                "minimum": 0.999956,
-                "average": 0.999989
+                "minimum": 0.999955,
+                "average": 0.9999885
               },
               "ssimBelowTarget": false,
-              "bytes": 10279,
-              "sha256": "452772637814e2256333e251dc6476ec89f154f6dee584b30c9165f89ddc6f32",
+              "bytes": 10287,
+              "sha256": "dd7d041bf4b37f2d427c5ab4bfe7d509b60b56d8cc622716e6a63aa1a1c220e8",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2123,17 +2123,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999977,
-                  0.99998,
-                  0.998976,
-                  0.999973
+                  0.999976,
+                  0.999979,
+                  0.998983,
+                  0.999979
                 ],
-                "minimum": 0.998976,
-                "average": 0.9997265
+                "minimum": 0.998983,
+                "average": 0.9997292499999999
               },
               "ssimBelowTarget": false,
-              "bytes": 6147112,
-              "sha256": "b659884729b6568fb4f96d4520db7717b736ff6cf89ef2e4b75e7957ba201a5d",
+              "bytes": 6151071,
+              "sha256": "c8084be9883167e9defd14d003c5be8be601f76e63c4f379199cf88529afb749",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2187,17 +2187,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999979,
-                  0.999983,
-                  0.99929,
-                  0.999943
+                  0.999984,
+                  0.999987,
+                  0.999301,
+                  0.999962
                 ],
-                "minimum": 0.99929,
-                "average": 0.9997987500000001
+                "minimum": 0.999301,
+                "average": 0.9998085
               },
               "ssimBelowTarget": false,
-              "bytes": 7995610,
-              "sha256": "913eda9eeaa77e983ba56d2057efb25285c71749a1a3c169795433ade40b5da4",
+              "bytes": 8001123,
+              "sha256": "55415c2f9d9d12ecefe68a76e5cece610441c093ced3ba5bdfe6b0cfb95dca53",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2251,17 +2251,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999999,
-                  0.999999,
+                  1,
+                  1,
                   0.999994,
-                  0.999998
+                  1
                 ],
                 "minimum": 0.999994,
-                "average": 0.9999975
+                "average": 0.9999985
               },
               "ssimBelowTarget": false,
-              "bytes": 718297,
-              "sha256": "e969320f96d83363daae95d06d2270904e20d48c46b0c64c19e31457088ee1f0",
+              "bytes": 718471,
+              "sha256": "574c8177b01ccd2a40135b1ec7c0e5bcb92eb064c6342f72d5febf990b01c41c",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2363,17 +2363,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999934,
+                  0.999935,
                   0.999948,
-                  0.99879,
-                  0.999982
+                  0.998793,
+                  0.999986
                 ],
-                "minimum": 0.99879,
-                "average": 0.9996635
+                "minimum": 0.998793,
+                "average": 0.9996655000000001
               },
               "ssimBelowTarget": false,
-              "bytes": 3806220,
-              "sha256": "15c3f265d244b27d3bcdc0d9d0d44b2faef9b919c1a072d3c1dcf479aaadee5c",
+              "bytes": 3806313,
+              "sha256": "af4b4fc32d3070cc7e597990bb1eb0a0374e1ed696a1d364d2e9c1e4bd956ecc",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2427,17 +2427,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999881,
-                  0.999897,
-                  0.998373,
-                  0.99997
+                  0.99988,
+                  0.999896,
+                  0.998379,
+                  0.999983
                 ],
-                "minimum": 0.998373,
-                "average": 0.9995302500000001
+                "minimum": 0.998379,
+                "average": 0.9995345
               },
               "ssimBelowTarget": false,
-              "bytes": 4183326,
-              "sha256": "63d83d9caef68f7539c64df4e965ae6a1f3970dffd1f174819615eae0fa58e98",
+              "bytes": 4188697,
+              "sha256": "4aab38dc922e481f5a5fe35179597a3a111fb5d405b716c3dbe807b5cee589f5",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2491,17 +2491,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999948,
-                  0.999948,
-                  0.998661,
-                  0.99998
+                  0.999951,
+                  0.99995,
+                  0.998666,
+                  0.999989
                 ],
-                "minimum": 0.998661,
-                "average": 0.99963425
+                "minimum": 0.998666,
+                "average": 0.9996389999999999
               },
               "ssimBelowTarget": false,
-              "bytes": 970433,
-              "sha256": "8ec93eaa81cb79696ccb93e9ed06e8be8db743c3a7a9bdd9215ed6db0e0fdf34",
+              "bytes": 970260,
+              "sha256": "914575136da5fdab35a43c1554326e6d454faad5e06426cd01a1d624f58664dc",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -2603,17 +2603,17 @@
               "encoding": "uastc",
               "ssim": {
                 "channels": [
-                  0.999974,
-                  0.999981,
-                  0.999978,
-                  0.999986
+                  0.999977,
+                  0.999983,
+                  0.999979,
+                  0.999991
                 ],
-                "minimum": 0.999974,
-                "average": 0.9999797500000001
+                "minimum": 0.999977,
+                "average": 0.9999825
               },
               "ssimBelowTarget": false,
-              "bytes": 41953,
-              "sha256": "8d5f83d3c88f9fc363263cb208d9056de7e09860558d9c8d1d0d20904a119751",
+              "bytes": 42013,
+              "sha256": "4038fad356aeae5e2028688f0206091fc517a46658c578647d7717199f1c6e52",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -4031,7 +4031,7 @@
         "height": 13000,
         "channels": 4,
         "colorSpace": "srgb",
-        "sha256": "90c36d9f33e69bd83e8dbf76b5d42ee0a9a57f70273ab909cbc44039a0b7c9bc",
+        "sha256": "5be5d088fc35a19a0039e236bc5be4b3042052f19e4c62b0ebc3c98204bb27d5",
         "bytes": 86773870
       },
       "tiers": [
@@ -4100,8 +4100,8 @@
                 "average": 0.99994825
               },
               "ssimBelowTarget": false,
-              "bytes": 2067442,
-              "sha256": "94092dfe9a1ee20c3eb0e52744bfa5e7e9eba1992ffd5be9902a8335aace1dff",
+              "bytes": 2067409,
+              "sha256": "e820071985548c2858eedb8b56dda4b3a11ae7f2e75560faf506705df98c9cb6",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -4236,8 +4236,8 @@
                 "average": 0.9999920000000001
               },
               "ssimBelowTarget": false,
-              "bytes": 1985604,
-              "sha256": "87e2d9c68d894b6b5e6d185555bb474f0689c915af14dbf790cd3d191ac3fdb4",
+              "bytes": 1984967,
+              "sha256": "c23588ecdbf6b947ef67275238bb6ac3c3681f644936c47dc0be684fb005cdaf",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -4300,8 +4300,8 @@
                 "average": 0.999789
               },
               "ssimBelowTarget": false,
-              "bytes": 2539818,
-              "sha256": "f6c41793ecd283133eccfe6d57a8093cd1499fa00379f51cf0fc46ed5ae3ca92",
+              "bytes": 2540013,
+              "sha256": "e294cca50de58c22d75ccdfaa64fb15efc1857e6fd0d3aca22aa647842c654ba",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -4364,8 +4364,8 @@
                 "average": 0.9998065
               },
               "ssimBelowTarget": false,
-              "bytes": 1989739,
-              "sha256": "a7907f28b6d17ffe1b64a4cab887ab8eb8a64cee23803e2bc450ad5f14ece46b",
+              "bytes": 1989700,
+              "sha256": "83bf9b1283fc7d2d7f1ea2020b2a0efda51571a0051328e005d25f72a529ae44",
               "mipLevels": 1,
               "premultipliedAlpha": true
             }
@@ -4788,8 +4788,8 @@
                 "average": 0.99996225
               },
               "ssimBelowTarget": false,
-              "bytes": 4701006,
-              "sha256": "332b0c0c0bc1b9464086cd7ba4a5791e735a064bc331ef32dfa95465768e4020",
+              "bytes": 4697375,
+              "sha256": "c8bf9e085ec95e075241f88694b37307028b003e89a05f8a9b33ed129524b990",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -4980,8 +4980,8 @@
                 "average": 0.99988175
               },
               "ssimBelowTarget": false,
-              "bytes": 4758587,
-              "sha256": "813299e4fdab1230aee9d5bef253a8dc8a24204c63a6697f30cea1f1f2075b8a",
+              "bytes": 4758815,
+              "sha256": "d7728597ef9f28fb2d3f518d8c1f8d26cfd1b0fe4cbb86c77875ebdc68852022",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -5044,8 +5044,8 @@
                 "average": 0.999951
               },
               "ssimBelowTarget": false,
-              "bytes": 4894932,
-              "sha256": "a7bae763118631f968f825ddd3f970e41df9eeb9ccfa853efcc033813db699d4",
+              "bytes": 4894973,
+              "sha256": "be9f7beb4eaab5a3db716d2f0f385abbc69bd75007bbb3abc24fbbe9b9937779",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },
@@ -5236,8 +5236,8 @@
                 "average": 0.99991925
               },
               "ssimBelowTarget": false,
-              "bytes": 1690840,
-              "sha256": "f3acc750427f284a1b64ebd5993d2f121abf05f3d7b99e2028543b1f45bb25b5",
+              "bytes": 1690799,
+              "sha256": "90acdb3f66f7e05febfa0bd5bcf4535dcae26f3b0fbf3c277b3aa8cad1e43648",
               "mipLevels": 1,
               "premultipliedAlpha": true
             },

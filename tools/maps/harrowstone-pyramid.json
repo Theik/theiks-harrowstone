@@ -12,16 +12,16 @@
     "masterGridSize": 200,
     "expectedCounts": {
       "levels": 5,
-      "walls": 1936,
-      "tiles": 9,
+      "walls": 1943,
+      "tiles": 10,
       "regions": 11,
       "lights": 0
     },
     "expectedLevelWallCounts": {
       "defaultLevel0000": 557,
-      "PRSFmCV18iW5J0Jr": 472,
+      "PRSFmCV18iW5J0Jr": 478,
       "QeGYANMpzdBdB1LS": 93,
-      "zMTCOj9sUGUL9dqx": 920,
+      "zMTCOj9sUGUL9dqx": 921,
       "AObrWBg2H5FlYh3O": 25
     }
   },

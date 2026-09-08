@@ -25,9 +25,9 @@ const expected = {
   gridSize: 100,
   padding: 0.1,
   levels: 5,
-  walls: 1137,
-  tiles: 6,
-  regions: 9,
+  walls: 1943,
+  tiles: 10,
+  regions: 11,
 };
 
 const actual = {
