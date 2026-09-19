@@ -21,7 +21,9 @@ assert.equal(scene.width, config.scene.width, "Scene width changed.");
 assert.equal(scene.height, config.scene.height, "Scene height changed.");
 assert.equal(scene.padding, config.scene.padding, "Scene padding changed.");
 assert.equal(scene.grid?.size, config.scene.gridSize, "Scene grid size changed.");
-for (const [key, expected] of Object.entries(config.scene.expectedCounts)) {
+// Regions and lights can change without rebuilding the map's KTX2 artwork.
+const expectedCounts = {...config.scene.expectedCounts, regions: 16, lights: 1};
+for (const [key, expected] of Object.entries(expectedCounts)) {
   assert.equal(scene[key]?.length, expected, `Scene ${key} count changed.`);
 }
 for (const [levelId, expected] of Object.entries(config.scene.expectedLevelWallCounts ?? {})) {
@@ -30,6 +32,14 @@ for (const [levelId, expected] of Object.entries(config.scene.expectedLevelWallC
   const walls = scene.walls.filter(wall => wall.levels?.includes(levelId));
   assert.equal(walls.length, expected, `${level.name} wall count changed.`);
 }
+const surfaceRegions = scene.regions.filter(region => region.behaviors?.some(behavior => behavior.type === "defineSurface"));
+assert.equal(surfaceRegions.length, 5, "Scene surface regions are missing.");
+const basement = scene.levels.find(level => level.name === "Basement");
+const terrain = basement?.flags?.["theiks-toolbag"]?.undergroundTerrain;
+assert.equal(terrain?.enabled, true, "Basement diggable terrain is missing.");
+assert.equal(terrain?.levelId, basement._id, "Basement diggable terrain uses the wrong Level.");
+assert.equal(terrain?.intactSrc, "modules/theiks-harrowstone/assets/textures/rock.png");
+assert.equal(terrain?.dugSrc, "modules/theiks-harrowstone/assets/textures/gravel.png");
 assert.equal(scene.flags?.[RENDERER_ID]?.mapPyramid?.manifest, `${MODULE_PATH}/manifest.json`, "Scene pyramid flag is missing or incorrect.");
 assert.ok(!scene.flags?.["theiks-harrowstone"]?.mapPyramid, "Scene still uses the old Harrowstone pyramid flag.");
 assert.equal(scene.thumb, manifest.thumbnail.path, "Scene thumbnail does not use the generated asset.");
@@ -39,4 +49,4 @@ for (const level of manifest.levels) {
   assert.equal(sceneLevel.background?.src, level.tiers[0].tiles[0].path, `${level.name} does not use its z0 background.`);
 }
 
-console.log("Harrowstone scene flag, thumbnail, and z0 backgrounds match the generated pyramid.");
+console.log("Harrowstone scene, surface regions, diggable terrain, and map backgrounds verified.");

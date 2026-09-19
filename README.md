@@ -141,7 +141,7 @@ Toolbag only activates the prepared destroyable terrain, stairs, and levers desc
 
 ## Theik's Toolbag
 
-[Theik's Toolbag](https://github.com/Theik/theiks-toolbag) is optional. Harrowstone works without it, but enabling Toolbag activates the Scene's prepared destroyable terrain, working stairs, and usable levers.
+[Theik's Toolbag](https://github.com/Theik/theiks-toolbag) is optional. Harrowstone works without it, but enabling Toolbag activates the Scene's prepared destroyable and diggable terrain, working stairs, and usable levers. Diggable terrain is in the basement.
 
 The interactions below require Toolbag.
 

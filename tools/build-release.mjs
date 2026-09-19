@@ -13,7 +13,7 @@ import {buildPacks, verifyPacks} from "./compendium-packs.mjs";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DIST = path.join(ROOT, "dist");
 const RELEASE_DIRECTORIES = ["assets"];
-const RELEASE_FILES = ["module.json", "README.md", "LICENSE", "LICENSE.md", "THIRD_PARTY_NOTICES.md"];
+const RELEASE_FILES = ["module.json", "README.md", "PATCHNOTES.md", "LICENSE", "LICENSE.md", "THIRD_PARTY_NOTICES.md"];
 const execFileAsync = promisify(execFile);
 const ASSET_IGNORES = [
   "masters/**",

@@ -52,7 +52,7 @@ jobs:
           gh release create "$GITHUB_REF_NAME"
           dist/theiks-harrowstone.zip
           dist/module.json
-          --generate-notes
+          --notes-file PATCHNOTES.md
           --title "Tabletop by Theik - Harrowstone $GITHUB_REF_NAME"
         env:
           GH_TOKEN: ${{ github.token }}
